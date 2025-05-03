@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'Views/splash_screen.dart'; // import from the new views directory
 
+
 void main() {
   runApp(MindFieldApp());
 }
