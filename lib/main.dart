@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Views/splash_screen.dart'; // import from the new views directory
+import 'views/splash_screen.dart'; // import from the new views directory
 
 
 void main() {
@@ -7,6 +7,8 @@ void main() {
 }
 
 class MindFieldApp extends StatelessWidget {
+  const MindFieldApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 
  class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
@@ -28,19 +30,19 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.school, size: 80, color: Colors.white),
+            Icon(Icons.school, size: 100, color: Colors.white),
             SizedBox(height: 20),
             Text(
               'Mind Field',
               style: TextStyle(
-                  fontSize: 28,
+                  fontSize: 40,
                   fontWeight: FontWeight.bold,
                   color: Colors.white
               ),
             ),
             SizedBox(height: 10),
             Text(
-              'Get ready to spark your mind with thrilling educational challenges!',
+              'Get ready to spark your mind ',
               style: TextStyle(
                 fontSize: 18,
                 color: Colors.white,
